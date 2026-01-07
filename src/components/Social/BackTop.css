@@ -1,0 +1,63 @@
+.back-top-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(20, 20, 20, 0.33);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 100;
+}
+
+.back-top-button.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.back-top-svg {
+  width: 12px;
+  transition: transform 0.3s ease;
+}
+
+.back-top-svg path {
+  fill: white;
+}
+
+.back-top-button:hover {
+  width: 140px;
+  border-radius: 50px;
+  background-color: rgb(181, 160, 255);
+}
+
+.back-top-button:hover .back-top-svg {
+  transform: translateY(-200%);
+}
+
+.back-top-button::before {
+  content: "Back to Top";
+  position: absolute;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+.back-top-button:hover::before {
+  opacity: 1;
+  transform: translateY(0);
+}

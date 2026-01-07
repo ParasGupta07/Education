@@ -1,0 +1,149 @@
+.wave-home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(180deg, #92cbf2 0%, #ffffff 100%);
+}
+
+.floating-books-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.waves-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.middle-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 3;
+  max-width: 800px;
+}
+
+.company-name {
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: #0a4eb2;
+  margin-bottom: 1.2rem;
+}
+
+.wave-text {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.wave-text-dekstop {
+  display: block;
+}
+
+.wave-text-mobile {
+  display: none;
+}
+
+.quote-text {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.right-section {
+  position: absolute;
+  top: 48%;
+  left: 9%;
+  transform: translateY(-50%);
+  z-index: 3;
+  max-width: 40%;
+}
+
+@media (max-width: 1024px) {
+  .middle-text {
+    top: 29%;
+    width: 75%;
+    max-width: none;
+  }
+  .company-name {
+    font-size: 3rem;
+  }
+  .wave-text {
+    font-size: 1.9rem;
+  }
+  .wave-text-dekstop {
+    display: none !important;
+  }
+  .wave-text-tab {
+    display: block !important;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .quote-text {
+    font-size: 1.5rem;
+    margin-top: 25px;
+  }
+  .right-section {
+    top: 52%;
+    left: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wave-home {
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .middle-text {
+    top: 38%;
+    width: 75%;
+    max-width: none;
+  }
+
+  .company-name {
+    font-size: 1.5rem;
+  }
+
+  .wave-text {
+    font-size: 1.1rem;
+    margin-top: 5px;
+  }
+
+  .wave-text-dekstop {
+    display: none !important;
+  }
+
+  .wave-text-mobile {
+    display: block !important;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .quote-text {
+    font-size: 0.85rem;
+    margin-top: 20px;
+  }
+
+  .right-section {
+    top: 80%;
+    left: 41%;
+  }
+}

@@ -1,0 +1,30 @@
+.phone-button {
+width: 45px;
+height: 45px;
+border: none;
+border-radius: 50%;
+cursor: pointer;
+position: fixed;
+bottom: 30px;
+right: 20px;
+background-color: #18a8d4;
+display: flex;
+align-items: center;
+justify-content: center;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+transition: transform 0.2s ease-in-out;
+z-index: 10000;
+}
+
+.phone-button:hover {
+transform: scale(1.1);
+}
+
+.phone-button:active {
+transform: translate(2px, 2px);
+}
+
+.phone-icon {
+width: 32px;
+height: 32px;
+}

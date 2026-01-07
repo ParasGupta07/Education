@@ -1,0 +1,140 @@
+.card-nav-container {
+  position: absolute;
+  top: 2em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  max-width: 1100px;
+  z-index: 99;
+  box-sizing: border-box;
+}
+
+.card-nav {
+  display: block;
+  height: 60px;
+  padding: 0;
+  background-color: white;
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px #024e6f40;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-nav-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0.5rem 1rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-middle-space {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+  padding: 0.5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  font-size: 1rem;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link:hover {
+  color: #18a8d4;
+}
+
+.nav-text {
+  position: relative;
+}
+
+.nav-text::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: #024f6f;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.nav-link:hover .nav-text::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.card-nav-cta-button {
+  background-color: #111;
+  color: white;
+  border: none;
+  border-radius: calc(0.75rem - 0.35rem);
+  padding: 0 1rem;
+  height: 100%;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-nav-cta-button:hover {
+  background-color: #333;
+}
+
+@media (max-width:1024px) {
+  .nav-menu ul {
+    gap: 1.2rem;
+  }
+  .nav-item {
+    padding: 0.3rem;
+  }
+  .nav-link{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-nav-container {
+    width: 90%;
+    top: 1.2em;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+  .nav-menu ul {
+    display: none;
+  }
+
+  .card-nav-cta-button {
+    display: block;
+  }
+}
