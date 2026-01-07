@@ -264,7 +264,7 @@ const WaveHome = () => {
       <div className="floating-books-container" ref={booksContainerRef}></div>
       <div className="middle-text">
         <TextType 
-          text={["Welcome to RVGo", "Welcome to RVGo"]}
+          text={["Welcome to The Website", "Welcome to The Website"]}
           className="company-name"
           typingSpeed={75}
           pauseDuration={1500}

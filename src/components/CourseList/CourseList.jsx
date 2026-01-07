@@ -7,7 +7,7 @@ export default function CourseList() {
   const coursesData = [
     {
       id: 1,
-      title: "RV GO – Bucket Shell",
+      title: " – Bucket Shell",
       color: "#f7931e",
       details: [
         "School Academics (IB/IGCSE/A Level/ICSE/CBSE/US/All KS Year 6 to Year 16/UK SAT)",
@@ -21,7 +21,7 @@ export default function CourseList() {
     },
     {
       id: 2,
-      title: "RV GO – SAT",
+      title: " – SAT",
       color: "#00aaff",
       details: [
         "Fast Track Program – 2 months program*",
@@ -34,7 +34,7 @@ export default function CourseList() {
     },
     {
       id: 3,
-      title: "RV GO – ACT",
+      title: " – ACT",
       color: "#16a085",
       details: [
         "Fast Track Program – 2 months program*",
@@ -47,7 +47,7 @@ export default function CourseList() {
     },
     {
       id: 4,
-      title: "RV GO – APS",
+      title: " – APS",
       color: "#e74c3c",
       details: ["One on One tutoring", "Expert tutors", "Affordable Cost"],
     },

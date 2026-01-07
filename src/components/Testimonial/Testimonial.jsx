@@ -11,28 +11,28 @@ export default function Testimonial() {
       name: "Ruchira",
       role: "Prepared for SAT",
       quote:
-        "RVGO helped me tremendously with my SAT prep. The structured lessons and practice tests have boosted my confidence and skills.",
+        "our platform helped me tremendously with my SAT prep. The structured lessons and practice tests have boosted my confidence and skills.",
     },
     {
       img: "/images/testimonials/test2.png",
       name: "Ahnika",
       role: "Preparing for ISEE exam",
       quote:
-        "RVGOPREP was incredibly helpful for my ISEE preparation. The content was comprehensive, interactive, and well-structured, boosting my confidence and performance.",
+        "our platformPREP was incredibly helpful for my ISEE preparation. The content was comprehensive, interactive, and well-structured, boosting my confidence and performance.",
     },
     {
       img: "/images/testimonials/test3.png",
       name: "Srija",
       role: "Preparing for SAT and AP exams",
       quote:
-        "I'm currently using RVGO for my SAT and AP prep, and it's been fantastic. The lessons are engaging, well-structured, and really effective.",
+        "I'm currently using our platform for my SAT and AP prep, and it's been fantastic. The lessons are engaging, well-structured, and really effective.",
     },
     {
       img: "/images/testimonials/test4.png",
       name: "Arjun Mehta",
       role: "Preparing for ACT",
       quote:
-        "RVGO Education Academy has made my ACT prep stress-free. The personalized study plan and detailed feedback kept me on track and motivated throughout the journey.",
+        "our platform Education Academy has made my ACT prep stress-free. The personalized study plan and detailed feedback kept me on track and motivated throughout the journey.",
     },
   ];
 

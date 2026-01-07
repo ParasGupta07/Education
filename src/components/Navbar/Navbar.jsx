@@ -7,7 +7,7 @@ const Navbar = () => {
       <nav className="card-nav" style={{ backgroundColor: "#fff" }}>
         <div className="card-nav-top">
           <div className="logo-container">
-            <img src={logo} alt="Company Logo" className="logo" />
+            {/* <img src={logo} alt="Company Logo" className="logo" /> */}
           </div>
           <div className="nav-middle-space">
             <nav className="nav-menu">

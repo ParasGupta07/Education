@@ -23,7 +23,7 @@ export default function About() {
         />
         </div>
         <p>
-          <span className="highlight">RVGo</span> is an innovative online test preparation platform dedicated to providing
+          <span className="highlight">This</span> is an innovative online test preparation platform dedicated to providing
           affordable, customized, and effective learning solutions for students preparing for exams like
           SAT, ACT, AP's, AMC, IB Curriculum, GCSE, ISEE, UK SATs, IGCSE, CBSE, ICSE, and State Boards.
         </p>
@@ -32,7 +32,7 @@ export default function About() {
           tailored guidance that matches their learning style, strengths, and goals.
         </p>
         <p>
-          At RV Go, we believe every student has the potential to succeed. Our mission is to make that 
+          We believe every student has the potential to succeed. Our mission is to make that 
           success attainable by offering <span className="highlight">flexible, interactive, and student-centered tutoring sessions. </span>  
           Whether aiming for top-tier universities abroad or academic excellence locally, 
           we guide students every step of the way.

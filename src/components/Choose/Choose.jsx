@@ -29,7 +29,7 @@ export default function Choose() {
               autoplay
             />
             <div className="choose-card-para">
-              <p>At RVGo, we believe digital education is the bridge to a smarter future. Our goal is to make learning simple, engaging, and available to everyone — anytime, anywhere. Through interactive tools, online resources, and personalized learning experiences, we help students and professionals gain the skills they need to succeed in a fast-changing world. RVGo is committed to making education inclusive, accessible, and future-ready, empowering every learner to grow with confidence.</p>
+              <p>At Our platform, we believe digital education is the bridge to a smarter future. Our goal is to make learning simple, engaging, and available to everyone — anytime, anywhere. Through interactive tools, online resources, and personalized learning experiences, we help students and professionals gain the skills they need to succeed in a fast-changing world. Our platform is committed to making education inclusive, accessible, and future-ready, empowering every learner to grow with confidence.</p>
             </div>
           </div>
           <label htmlFor="choose-card-1" className="choose-card-overlay" aria-hidden></label>
@@ -51,7 +51,7 @@ export default function Choose() {
               autoplay
             />
             <div className="choose-card-para">
-              <p>At RVGo, our Full Mentorship program is designed to guide students at every step of their learning journey. From building a strong conceptual foundation to personalized doubt-solving sessions, we ensure that every learner stays on track. Our mentors provide motivation, regular progress checks, and tailored strategies so students can confidently move toward their goals.</p>
+              <p>At Our platform, our Full Mentorship program is designed to guide students at every step of their learning journey. From building a strong conceptual foundation to personalized doubt-solving sessions, we ensure that every learner stays on track. Our mentors provide motivation, regular progress checks, and tailored strategies so students can confidently move toward their goals.</p>
             </div>
           </div>
 
@@ -74,7 +74,7 @@ export default function Choose() {
               autoplay
             />
             <div className="choose-card-para">
-              <p>Preparing for exams can be stressful — but with RVGo, you're never alone. Our Till Exam Revision support includes structured revision plans, topic-wise quick notes, practice tests, and last-minute guidance to ensure maximum retention. We focus on improving speed, accuracy, and confidence so students walk into the exam hall fully prepared.</p>
+              <p>Preparing for exams can be stressful — but with Our platform, you're never alone. Our Till Exam Revision support includes structured revision plans, topic-wise quick notes, practice tests, and last-minute guidance to ensure maximum retention. We focus on improving speed, accuracy, and confidence so students walk into the exam hall fully prepared.</p>
             </div>
           </div>
 

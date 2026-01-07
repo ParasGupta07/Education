@@ -12,9 +12,9 @@ const MacBook = () => {
               <div className="display">
                 <div className="shade"></div>
               </div>
-              <span>RVGo</span>
+              <span></span>
             </div>
-            <span className="logo-above">RVGo</span>
+            <span className="logo-above"></span>
           </div>
           <div className="body">
             <div className="face-one">

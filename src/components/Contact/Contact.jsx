@@ -27,11 +27,11 @@ const Contact = () => {
             <h4>Contact Info</h4>
             <div className="info-single">
               <FontAwesomeIcon icon={faHeadset} className="contact-icons"/>
-              <span>+91 89506 08487</span>
+              <span>+91 99999 11111</span>
             </div>
             <div className="info-single">
               <FontAwesomeIcon icon={faEnvelopeOpenText} className="contact-icons"/>
-              <span>info@rvgoprep.com</span>
+              <span>info@localhost.com</span>
             </div>
             <div className="info-single">
               <FontAwesomeIcon icon={faInfoCircle} className="contact-icons"/>

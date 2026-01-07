@@ -10,7 +10,7 @@ const Footer = () => {
         <h2 className="footer-title">THANK YOU<br />For Visiting Our Website</h2>
         <div className="footer-columns">
           <div className="footer-col col1">
-            <h3 className="footer-heading">RVGo</h3>
+            <h3 className="footer-heading">Demo Website</h3>
             <p className="footer-small">
               Made with <span style={{ color: "#BA6573" }}>❤</span>
             </p>
@@ -38,7 +38,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="footer-copy">
-              {new Date().getFullYear()} RVGo © All Rights Reserved
+              {new Date().getFullYear()} Demo © All Rights Reserved
             </p>
           </div>
           <div className="footer-col col2">
